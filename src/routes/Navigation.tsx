@@ -7,7 +7,7 @@ import { routes } from './routes'
 
 export const Navigation = () => {
     return (
-        <Suspense fallback={<span>Loading...</span>}>
+        <Suspense fallback={<span>Loading..</span>}>
             <BrowserRouter>
                 <div className="main-layout">
                     <nav>
